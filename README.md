@@ -1,9 +1,7 @@
+## Credits:
 This webpage is based on the GDG Toulouse's webpage, which you can find [here][linkGDG] and its github repository [here][linkGDGgithub]
 
-
-
 ## Building the web site:
-
 
 ### Jekyll
 
