@@ -17,7 +17,7 @@ subtitle: "Python in Pharma 2019"
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-# url: "http://www.pythoninpharma.com" # the base hostname & protocol for your site
+url: "http://www.pythoninpharma.com" # the base hostname & protocol for your site
 baseurl: ""
 description: "PyPharma: a meeting, exchange and learning point for industry and academic scientific python users in pharma."
 twitter:
