@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/2019/07/02/kickoff-pypharma.html</loc>
+<lastmod>2019-07-02T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/contact/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/events/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/sponsors/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/docs/become_a_sponsor.pdf</loc>
+<lastmod>2019-07-02T10:30:06+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/img/dev_img/favicon.pdf</loc>
+<lastmod>2019-07-01T14:53:52+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/img/dev_img/pypharma_logo.pdf</loc>
+<lastmod>2019-07-02T12:31:00+02:00</lastmod>
+</url>
+</urlset>

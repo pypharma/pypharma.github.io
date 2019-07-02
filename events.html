@@ -1,0 +1,62 @@
+---
+layout: page
+title: Blog
+permalink: /events/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Nos events</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="events" class="gray-container">
+  <div class="container">
+    <div class="row">
+      {% for event in site.data.events reversed %}
+      <div class="col-xs-12">
+        <div class="post-area card event-card" data-timestamp="{{ event.time }}">
+          <div class="row">
+            <div class="col-xs-12 col-sm-2 col-date">
+              <div class="date">
+                <div class="dayOfWeek">{{ event.timeISOString | date: "%a" }}</div>
+                <div class="day">{{ event.timeISOString | date: "%-d" }}</div>
+                <div class="dayOfWeek">{{ event.timeISOString | date: "%b" }}</div>
+                <div class="year">{{ event.timeISOString | date: "%Y" }}</div>
+                <!--<div class="year">{{ event.time | date: "%Y" }}</div>-->
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-10">
+              <div class="content">
+                <a href="{{ event.event_url }}" target="_blank" class="title bold">{{ event.name }}</a>
+                <div class="event-venue">
+                  <h3 class="event-venue-name">Chez: <b>{{ event.venueName }}</b></h3>
+                  <address>
+                    {{ event.venueAddress }}<br> {{ event.venueCity }}
+                  </address>
+                </div>
+                {{ event.description }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <script type="application/javascript">
+        var now = Date.now();
+        var events = document.querySelectorAll('.event-card');
+
+        Array.prototype.forEach.call(events, function(div) {
+          div.className = parseInt(div.dataset.timestamp) > now
+          ? div.className + " event-future"
+          : div.className + " event-past";
+        });
+      </script>
+    </div>
+  </div>
+</section>

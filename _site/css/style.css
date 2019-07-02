@@ -1,0 +1,222 @@
+/*
+ * This css file includes styles added in the jekyll port of this theme.
+ * To find the original style.css that ships with Airspace, read airspace.css
+ *
+ */
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.post-area {
+  overflow: hidden;
+}
+
+.post-area img {
+  margin: auto;
+  display: block;
+}
+
+.post-area .event-venue {
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+  background-color: #f7f6f6;
+  margin-bottom: 10px;
+}
+
+.post-area .event-venue h3 {
+  margin-top: 0;
+}
+
+.post-area .title {
+  font-size: 30px;
+  color: #333;
+}
+.post-area p {
+  color: #333;
+}
+
+.post-area .event-venue address {
+  margin-bottom: 0;
+}
+
+.post-area a:hover {
+  color: #0D0017;
+}
+
+.post-area .content > h2 {
+  margin-top: 0;
+}
+
+.btn-big {
+  padding: 20px 26px;
+  font-size: 32px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.gray-container {
+  background-color: #EEE;
+  padding: 20px;
+}
+
+@media (max-width: 512px) {
+  .gray-container {
+    padding: 0px;
+  }
+}
+
+#events img, .event-card img {
+  max-width: 100%;
+}
+
+#events p {
+  line-height: 20px;
+  margin: 0 0 5px;
+}
+
+@media (min-width: 768px) {
+  .post-area .col-date {
+    max-width: 150px;
+  }
+}
+
+.post-area .date {
+  width: 100px;
+  display: block;
+  text-transform: uppercase;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.post-area .date > div {
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 1em;
+}
+
+.post-area .date .day {
+  font-size: 75px;
+  color: #9BD3DD;
+}
+
+.post-area .date .month, .date .year {
+  letter-spacing: 1em;
+  padding-left: 0.5em;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.post-area .date .dayOfWeek {
+  font-size: 24px;
+  letter-spacing: 0.6em;
+  padding-left: 0.3em;
+  color: #aaa;
+}
+
+.section-blue .post-area .date .dayOfWeek,
+.section-red .post-area .date .dayOfWeek,
+.section-yellow .post-area .date .dayOfWeek,
+.section-green .post-area .date .dayOfWeek {
+  color: white;
+}
+
+#sponsors-logo-section {
+  padding: 20px 0;
+}
+
+.card {
+  margin: 10px 10px 10px 10px;
+  width: calc(100% - 20px);
+  border-radius: 2px;
+  font-size: 1.4rem;
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 13px 16px 13px 16px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 512px) {
+  .card {
+    margin: 10px 0px;
+    width: 100%;
+  }
+}
+
+.delay-250ms{
+  animation-delay: 250ms;
+}
+.delay-500ms{
+  animation-delay: 500ms;
+}
+.delay-750ms{
+  animation-delay: 750ms;
+}
+.delay-1000ms{
+  animation-delay: 1000ms;
+}
+.delay-1250ms{
+  animation-delay: 1250ms;
+}
+.delay-1500ms{
+  animation-delay: 1500ms;
+}
+
+#slider .counter-box > div {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  
+}
+
+#slider .counter-box h4 {
+  font-size: 50px;
+  font-weight: bold;
+}
+#slider .counter-box span {
+  color: white;
+}
+
+#navbar-header .badge{
+  background-color: #d9534f;
+}
+
+#events .event-future{
+  border: 2px solid #d9534f;
+}
+
+#events .event-future .day{
+  color: #d9534f;
+}
+
+section.alert.alert-danger{
+  background-color: #d9534f;
+  color: white;
+  font-weight: bold;
+}
+
+section.alert.alert-danger a{
+  color: white;
+  font-weight: bold;
+}
+
+.sponsor-card {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

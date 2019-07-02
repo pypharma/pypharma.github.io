@@ -1,0 +1,43 @@
+
+exclude:
+  - "README.md"
+  - "LICENSE.md"
+  - "node_modules"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+
+# Site settings
+title: PyPharma
+subtitle: "Python in Pharma 2019"
+# Base URL of site. It should always start with a slash,
+# and never end with a slash. Set it to a blank value if hosting at the
+# root of your server.
+# baseurl: "/" # the subpath of your site
+url: "http://www.pythoninpharma.com" # the base hostname & protocol for your site
+baseurl: ""
+description: "PyPharma: a meeting, exchange and learning point for industry and academic scientific python users in pharma."
+twitter:
+  username: pypharma
+
+# Build settings
+markdown: kramdown
+
+# Google analytics
+# ga_tracking_id: "UA-37717223-4"
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

@@ -1,0 +1,25 @@
+{
+  "name": "gdgtoulouse.github.io",
+  "version": "1.0.0",
+  "description": "https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve --incremental",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:events": "node ./generate_events.js > ./_data/events.json",
+    "deploy:events": "npm run build:events && git add _data/events.json && git commit -m 'auto update events' && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDGToulouse/gdgtoulouse.github.io.git"
+  },
+  "author": "shprink <contact@julienrenaux.fr> (http://julienrenaux.fr/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GDGToulouse/gdgtoulouse.github.io/issues"
+  },
+  "homepage": "https://github.com/GDGToulouse/gdgtoulouse.github.io#readme",
+  "devDependencies": {
+    "meetup-api": "^1.4.6"
+  }
+}

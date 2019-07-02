@@ -1,0 +1,34 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Blog</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="posts" class="gray-container">
+  <div class="container">
+    <div class="row">
+      {% for post in site.posts %}
+      <div class="col-md-6">
+        <div class="post-area card">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="title bold">{{ post.title }}</a>
+          <p class="post-date">{{ post.date | date_to_long_string }}</p>
+          <p>
+            {{ post.content | strip_html | truncatewords: 50 }}
+          </p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+</section>
