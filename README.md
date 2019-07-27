@@ -1,44 +1,11 @@
-## Credits:
-This webpage is based on the GDG Toulouse's webpage, which you can find [here][linkGDG] and its github repository [here][linkGDGgithub]
+# Hipster-Startup-Website
 
-## Building the web site:
+•	Designed my first responsive website created using HTML5, CSS3 and Bootstrap3.
 
-### Jekyll
-
-The webpage is built with [Jekyll][linkJekyll]; you will find explanations of how you install and build a website with Jekyll.
+•	This webpage is responsive as it is compatible for the various versions of small devices and extra small devices.
 
 
-### Publishing the webpage
-
-Please consult the following description if you want to setup a similar website _locally_:
-
-https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
-
-Or if you want to publish the webpage, follow this description:
-
-https://pages.github.com/
-
-<!--
-## Events
-
-```shell
-yarn # or `npm i`
-cp generate_events.dist.js generate_events.js
-# Add Meetup token
-```
-
-Commands:
-
-```shell
-# Fetch events
-npm run build:events
-
-# Auto fetch events + push github
-npm run deploy:events
-```
--->
+Locally hosted githubpages : https://ashwin7mak.github.io/Hipster-Startup-Website/startup.html
 
 
-[linkGDG]: http://www.gdgtoulouse.fr/
-[linkGDGgithub]: https://github.com/GDGToulouse/gdgtoulouse.github.io
-[linkJekyll]: https://jekyllrb.com/
+![alt tag](https://s11.postimg.org/gttfm5koz/Hipster.png)
