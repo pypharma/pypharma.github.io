@@ -105,9 +105,13 @@ footer a {
     height: 200px;
 }
 
+.pypharma-member {
+    padding: 20px;
+    text-align: center;
+}
+
 .pypharma-bio {
-    height: 200px;
-    overflow-y: scroll;
+    text-align: left;
 }
 
 /*------- Media Queries -------*/
