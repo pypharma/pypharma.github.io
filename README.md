@@ -1,6 +1,6 @@
 # PyPharma Website
 
-* Based on the HipsterStartupWebsite template repo.
+* Based on the [HipsterStartupWebsite](https://github.com/Ashwin7mak) template repository.
 * Designed my first responsive website created using HTML5, CSS3 and Bootstrap3 
 * This webpage is responsive as it is compatible for the various versions of small devices and extra small devices.  
 
